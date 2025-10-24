@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+## Product Catalog Mobile App Preview 🚀
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Hey there! Welcome to my Product Catalog project : a small, fun React Native app where you can browse products, find your favorites, and play around with filters and sorting. Here's what it does:
+
+Fetches product data from Fake Store API !
+Displays products (Title
+Price
+Category
+Image)
+Filter by category : because who wants to scroll through everything?
+Sort by price : low to high, high to low.
+Favorite products : click the heart, make it yours.
+Search bar : find what you’re looking for in a snap.
+Responsive design : works nicely on mobile,tablets.
+All of this is done in React Native + Expo .
+
+Check it out and enjoy exploring products! 🛒
 
 ## Get started
 
-1. Install dependencies
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/karimahamdan12/Product-calatog-react-native-app.git
+cd Product-calatog-react-native-app
+```
+
+2. Install dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Start the app
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+   By default, Expo uses LAN mode. If you encounter firewall or connection issues on your mobile device, use Tunnel mode to host the app online and sometimes even here you may face some problems one of the answers online that worked for me is disabling the antivirus while testing :
 
 ```bash
-npm run reset-project
+   npx expo start --tunnel
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## App Demo
 
-## Learn more
+here's a Quick demo of the App :
 
-To learn more about developing your project with Expo, look at the following resources:
+![a quick demo of the app](./docs/app_demo.gif)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## What Could Have Been Improved If I Had More Time
 
-## Join the community
+### Accessibility
 
-Join our community of developers creating universal apps.
+i'm still not fully comfortable with accessibility and react native primitives
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Typescript
+
+For better type safety and control over data structures, TypeScript would have been a great addition. For now, the focus was on implementing core functionalities.
+
+### Automated Tests
+
+For larger applications, automated tests (unit and integration tests) would ensure reliability and make future maintenance easier.
