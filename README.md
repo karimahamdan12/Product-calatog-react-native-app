@@ -47,7 +47,7 @@ cd Product-calatog-react-native-app
 
 here's a Quick demo of the App :
 
-![a quick demo of the app](./docs/app_demo.gif)
+![a quick demo of the app](/docs/app_demo.gif)
 
 ## Design Decisions
 
