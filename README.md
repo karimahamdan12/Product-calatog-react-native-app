@@ -49,6 +49,10 @@ here's a Quick demo of the App :
 
 ![a quick demo of the app](./docs/app_demo.gif)
 
+## Design Decisions
+
+I did not memoize the fetched data in useFetchProducts because the hook runs only once when the parent component first mounts. Since the app is relatively simple, I did not encounter any performance issues. However, I am aware that for larger or more complex applications, it is important to handle performance considerations carefully, including memoization of expensive computations and functions.
+
 ## What Could Have Been Improved If I Had More Time
 
 ### Accessibility
